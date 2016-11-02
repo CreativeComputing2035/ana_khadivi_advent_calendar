@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Advent Calendar</title>
+        <meta name="description" content="Advent calendar">  
+        <link rel='stylesheet' type='text/css' href='styles.css'>
+        <style>
+            #day1, #day2, #day3, #day4, #day5, #day5, #day6, #day7 {
+                height: 200px;
+                width:200px;
+                align-items: center;
+                border:5px solid green;
+                font-size: 40px;
+                margin-right: 20px;
+            }
+            .days_after_click{
+                color: lightgray;
+            }
+            
+            #container{
+                display: -webkit-flex;
+                width: 100%;
+            }
+
+        </style>
+          <script>
+//            day1
+            function myFunction(){
+                document.getElementById('day1').className = 'days_after_click';     
+            }
+//            day2
+            function myFunction2(){
+                document.getElementById('day2').className = 'days_after_click';     
+            }
+//            day3
+            function myFunction3(){
+                document.getElementById('day3').className = 'days_after_click';     
+            }
+//            day4
+            function myFunction4(){
+                document.getElementById('day4').className = 'days_after_click';     
+            }
+//            day5
+            function myFunction5(){
+                document.getElementById('day5').className = 'days_after_click';     
+            }
+//            day6
+            function myFunction6(){
+                document.getElementById('day6').className = 'days_after_click';     
+            }
+//            day7
+            function myFunction7(){
+                document.getElementById('day7').className = 'days_after_click';     
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+        </script>
+        <h1>Advent Calendar</h1>
+        <div id ='container'>
+            <p id='day1' onclick="myFunction()">1</p>
+            <p id='day2' onclick="myFunction2()">2</p>
+            <p id='day3' onclick="myFunction3()">3</p>
+            <p id='day4' onclick="myFunction4()">4</p>
+            <p id='day5' onclick="myFunction5()">5</p>
+            <p id='day6' onclick="myFunction6()">6</p>
+            <p id='day7' onclick="myFunction7()">7</p>
+            
+        </div>
+
+    </body>
+</html>
